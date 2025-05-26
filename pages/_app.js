@@ -24,6 +24,11 @@ export default function App({ Component, pageProps }) {
         <meta name="keywords" content="Umair Ali | Portfolio" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
+      <script
+        async
+        src="https://ayoni.vercel.app/tracker.js"
+        data-website-id="cmb57sxjx0001kz04ipz0szw6"
+      ></script>
       {loader && <Preloader />}
       <Component {...pageProps} />
     </ThemeProvider>
