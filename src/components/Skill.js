@@ -1,45 +1,61 @@
 import SectionTitle from "./SectionTitle";
 
+/* ---------- skills & experience data (updated Jun 2025) ---------- */
+
 const skillsData = [
-  { id: 1, name: "HTML", icon: "fab fa-html5" },
-  { id: 2, name: "CSS", icon: "fab fa-css3" },
-  { id: 3, name: "JS", icon: "fab fa-js" },
-  { id: 4, name: "React JS", icon: "fab fa-react" },
-  { id: 5, name: "Next Js", icon: "fa fa-next" },
-  { id: 6, name: "Node JS", icon: "fab fa-node-js" },
+  { id: 1, name: "HTML5", icon: "fab fa-html5" },
+  { id: 2, name: "CSS3 / Tailwind", icon: "fab fa-css3-alt" },
+  { id: 3, name: "JavaScript (ES 2023)", icon: "fab fa-js" },
+  { id: 4, name: "TypeScript", icon: "fas fa-code" },
+  { id: 5, name: "React .js", icon: "fab fa-react" },
+  { id: 6, name: "Next .js", icon: "fas fa-layer-group" }, // icon fallback
+  { id: 7, name: "Node .js", icon: "fab fa-node-js" },
+  { id: 8, name: "GraphQL", icon: "fas fa-project-diagram" },
+  { id: 9, name: "PostgreSQL", icon: "fas fa-database" },
+  { id: 10, name: "Cypress / Playwright", icon: "fas fa-vial" },
+  { id: 11, name: "Jest", icon: "fas fa-check-circle" },
+  { id: 12, name: "GitHub Actions / CI-CD", icon: "fab fa-github" },
 ];
+
 const experiencesData = [
   {
     id: 1,
-    date: "April 2022-Present",
-    designation: "Front-end Software Engineer",
-    company: "Invotyx",
+    date: "Nov 2024 – Present",
+    designation: "Full-Stack AI Developer",
+    company: "Dataspecc / Hyperengage",
   },
   {
     id: 2,
-    date: "April 2021-Present",
-    designation: "Freelance Web Developer",
-    company: "Upwork, Fiverr, Freelancer,linkedin",
+    date: "Apr 2022 – Nov 2024",
+    designation: "Front-End Engineer",
+    company: "Invotyx (MyFormatic, VentiSwap)",
   },
   {
     id: 3,
-    date: "April 2023-Present",
-    designation: "MERN Stack Software Engineer",
+    date: "Apr 2023 – Aug 2023",
+    designation: "MERN Stack Engineer",
     company: "BuildupSol",
   },
   {
     id: 4,
-    date: "July 2021- Jan 2022",
+    date: "Apr 2021 – Present",
+    designation: "Freelance Web Developer",
+    company: "Upwork • Fiverr • LinkedIn",
+  },
+  {
+    id: 5,
+    date: "Jul 2021 – Jan 2022",
     designation: "WordPress Developer",
     company: "AJ Developers",
   },
   {
-    id: 5,
-    date: "May 2019- Aug 2019",
-    designation: "Junior Front-end Developer",
+    id: 6,
+    date: "May 2019 – Aug 2019",
+    designation: "Junior Front-End Developer",
     company: "BrainArt",
   },
 ];
+
 const Skill = () => {
   return (
     <section id="skill" className="section experience-section">
